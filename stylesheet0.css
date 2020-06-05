@@ -1,0 +1,44 @@
+         table, td, th {
+         	border-collapse: collapse;
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+            color: darkred;
+        }
+        h1, h2, h3 {
+        	font-family: sans-serif;
+       		color: firebrick;
+       		}
+        h1 {
+        	font-size: 40px;
+        }
+        }
+        h2 {
+        	font-size: 30px;
+        }
+        }
+        h3 {
+        	font-size: 25px;
+        }
+        p {
+        	font-size: 18px;
+        	font-family: serif;
+        	font-style: bold;
+        }
+        ul li, ol li {
+        	font-size: 18px;
+        	color: darkred;
+        }
+        a {
+        	color: darkblue;
+        }
+          @media (min-width: 650px) {
+  table, td, th {
+      width: 650px;
+  }
+  }
+  @media (max-width: 649px) {
+  table, td, th {
+      width: 350px;
+  }
+  }
