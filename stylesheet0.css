@@ -7,7 +7,7 @@
         }
         h1, h2, h3 {
         	font-family: sans-serif;
-       		color: firebrick;
+       		font-weight: bold;
        		}
         h1 {
         	font-size: 40px;
@@ -42,3 +42,31 @@
       width: 350px;
   }
   }
+  .extrainfo {
+  	color:darkblue;
+  	font-size: 16;
+  	font-weight: bold;
+  }
+  #sales {
+  	font-weight: bold;
+  	color:black;
+  }
+.col{
+	padding-top: 7px;
+}
+h1, h2, h3 {
+	 color: firebrick;
+}
+ div {
+	 font-weight: bold;
+}
+ div a {
+	 font-size: 14px;
+}
+ .new, .new--stop {
+	 text-decoration: underline;
+}
+ .new--stop {
+	 color: red;
+}
+ 

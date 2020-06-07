@@ -1,0 +1,19 @@
+$maincolor: firebrick;
+h1, h2, h3 {
+	color: $maincolor;
+}
+div{
+    font-weight:bold;
+      a {
+          font-size: 14px;
+          
+      }
+      }
+      .new {
+  text-decoration: underline;
+
+  &--stop {
+    @extend .new;
+    color: red;
+  }
+}
